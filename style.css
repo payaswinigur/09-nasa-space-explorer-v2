@@ -36,9 +36,12 @@ h1 {
 
 /* Logo */
 .logo {
-  width: 140px;
+  width: 120px;      /* smaller width */
+  max-width: 100%;   /* ensures it never exceeds container */
+  height: auto;      /* maintain aspect ratio */
   margin-right: 15px;
 }
+
 
 /* Filters */
 .filters {
